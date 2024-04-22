@@ -1,0 +1,96 @@
+header{
+    background-color: #FFF3DA;
+    /* color: rgb(204, 11, 172); */
+    color: #8f70be;
+    font-size: 40px;
+    height: 100px;
+    font-family: "first";
+    padding-left: 20px;
+    margin: 10px;
+    /* text-align: center; */
+}
+nav{
+    background-color: #DFCCFB;
+    font-size: 20px;
+    height:150px ;
+    font-family: "second";
+    margin: 10px;
+    padding-left: 20px;
+    
+    text-align: center; 
+    display: flex;
+    flex-direction: row;
+    /* gap: 20px; */
+}
+a{
+    display: inline-block;
+    margin: auto 50px;
+}
+section[id="sec2"]{
+    background-color: #d392d0; 
+    padding: 10px;
+}
+#sec1{
+    padding: 10px;
+    
+}
+#sec1 ol{
+    display: inline-block;
+}
+#sec1 ul{
+    color: rebeccapurple;
+    text-decoration: #c465bf underline wavy 2px;
+    display: inline-block;
+}
+main{
+    /* background-color: #D0BFFF; */
+    background-color: #FFF3DA; 
+    font-size: 20px;
+    font-family: "first";
+    word-spacing: 5px;
+    white-space: normal;
+   
+  
+}
+#sec3{
+    /* background-color:#b79be0;  */
+    background-color: #D0BFFF;
+    font-weight: bold;
+    padding: 10px;
+    text-align: center;
+}
+#sec3 div{
+    display: inline-block;
+   
+
+}
+footer{
+    background-color: #FFF3DA;
+    /* color: rgb(204, 11, 172); */
+    color: #8f70be;
+    font-size: 20px;
+    font-style: oblique 45deg;
+    font-family: "second";
+    padding: 10px;
+    margin: 10px 0px;
+    text-align: center;
+}
+body{
+    background-color: #8f70be; 
+}
+
+@font-face {
+    font-family: "first";
+    src: local(baskerville old face);
+}
+@font-face {
+    font-family: "second";
+    src: local("bradley Hand itc");
+}
+
+/* .p1{
+    color: rgb(40, 3, 70);
+    background-color: rgb(188, 179, 238);
+    width: 300px;
+    /* height: 100px; */
+/* }  */
